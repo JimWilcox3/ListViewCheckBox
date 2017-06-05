@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="BannerTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textSize">28sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginTop">1dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+  </style>
+  <style name="InputTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginTop">5dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+  </style>
+  <style name="InputSubTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textSize">18sp</item>
+    <item name="android:layout_marginTop">5dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+  </style>
+  <style name="MainItemTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginTop">1dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+  </style>
+  <style name="MainItemSubTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textSize">16sp</item>
+    <item name="android:layout_marginTop">1dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+  </style>
+  <style name="TableHeaderTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:gravity">top|center</item>
+  </style>
+  <style name="TableTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textSize">20sp</item>
+    <item name="android:layout_marginTop">1dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+    <item name="android:padding">2dp</item>
+  </style>
+  <style name="TableNumericTextView"
+         parent="@style/TableTextView">
+    <item name="android:gravity">right</item>
+  </style>
+  <style name="TableSpinner"
+         parent="android:style/Widget.Spinner">
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+  </style>
+  <style name="InputSpinner"
+         parent="android:style/Widget.Spinner">
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+  </style>
+  <style name="InputSpinnerItem"
+         parent="android:style/Widget.TextView">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:padding">2dp</item>
+  </style>
+  <style name="InputSpinnerDropDown"
+         parent="android:style/Widget.TextView">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:padding">2dp</item>
+  </style>
+  <style name="InputEditText"
+         parent="android:style/Widget.EditText">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textCursorDrawable">@drawable/black_cursor</item>
+    <item name="android:selectAllOnFocus">true</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+    <item name="android:padding">2dp</item>
+  </style>
+  <style name="TableEditText"
+         parent="android:style/Widget.EditText">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textCursorDrawable">@drawable/black_cursor</item>
+    <item name="android:layout_marginTop">2dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">1dp</item>
+    <item name="android:padding">2dp</item>
+  </style>
+  <style name="TableNumericEditText"
+         parent="@style/TableEditText">
+    <item name="android:gravity">right</item>
+  </style>
+  <style name="BasicButton"
+     parent="android:style/Widget.Button">
+    <item name="android:textSize">20sp</item>
+    <item name="android:layout_margin">5dp</item>
+    <item name="android:padding">10dp</item>
+  </style>
+  <style name="RedMessageTextView"
+         parent="android:style/Widget.TextView">
+    <item name="android:textColor">@color/red</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginTop">5dp</item>
+    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:layout_marginBottom">5dp</item>
+    <item name="android:padding">4dp</item>
+  </style>
+
+  <!--<style name="MPSTheme" parent="Theme.AppCompat">
+    <item name="colorPrimary">#00A5C4</item>
+  </style>-->
+
+</resources>
